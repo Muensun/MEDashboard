@@ -2,72 +2,12 @@
 <html lang="th">
 <head>
   <meta charset="UTF-8" />
-  <title>Mission Earth Dashboard</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MEDashboard</title>
   <link rel="stylesheet" href="style.css" />
-  <!-- ใช้ Chart.js ทำกราฟ -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-  <div class="app">
-    <header class="app-header">
-      <div>
-        <h1>Mission Earth Dashboard</h1>
-        <p>สรุปสถานะการทำงานของทีม (ตัวอย่างเบื้องต้น)</p>
-      </div>
-      <div class="header-right">
-        <span class="team-badge">ทีม Mission Earth</span>
-        <span class="status-badge status-online">ONLINE</span>
-      </div>
-    </header>
-
-    <main class="app-main">
-      <!-- KPI Cards -->
-      <section class="kpi-grid">
-        <div class="kpi-card">
-          <h3>Tasks สำเร็จวันนี้</h3>
-          <p class="kpi-value" id="kpi-today-done">0</p>
-          <p class="kpi-subtitle">เป้าหมาย 30 tasks</p>
-        </div>
-
-        <div class="kpi-card">
-          <h3>Mission สำเร็จเดือนนี้</h3>
-          <p class="kpi-value" id="kpi-mission-month">0</p>
-          <p class="kpi-subtitle">รวมทั้งหมด 12 mission</p>
-        </div>
-
-        <div class="kpi-card">
-          <h3>เวลาเฉลี่ยในการแก้ Issue</h3>
-          <p class="kpi-value" id="kpi-avg-time">–</p>
-          <p class="kpi-subtitle">เป้าหมาย &lt; 3 ชม.</p>
-        </div>
-      </section>
-
-      <!-- ส่วนล่าง: กราฟ + Activity -->
-      <section class="bottom-grid">
-        <div class="panel">
-          <div class="panel-header">
-            <h2>Tasks สำเร็จใน 7 วันล่าสุด</h2>
-          </div>
-          <canvas id="tasksChart"></canvas>
-        </div>
-
-        <div class="panel">
-          <div class="panel-header">
-            <h2>Activity ล่าสุด</h2>
-          </div>
-          <ul class="activity-list" id="activity-list">
-            <!-- JS จะมาเติมให้ -->
-          </ul>
-        </div>
-      </section>
-    </main>
-
-    <footer class="app-footer">
-      <span>© 2025 Mission Earth Team</span>
-      <span id="last-updated">Last updated: -</span>
-    </footer>
-  </div>
+  <h1>Mission Earth Dashboard</h1>
+  <p>เริ่มต้นบน Mac แล้ว 🎉</p>
 
   <script src="main.js"></script>
 </body>
